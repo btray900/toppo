@@ -57,7 +57,7 @@ Anything readable/writeable may be vulnerable. The sticky bit on the specific py
 
 Craft the payload for the vulnerable binary for your configuration. Setup your listener with something like netcat.
 
-![Alt text](./nmap.png?raw=true)
+![Alt text](./revshell.png?raw=true)
 
 
 ## root shell
@@ -72,11 +72,11 @@ The vulnerable binary returns with the hotness.
   </pre>
 </html>
 
-![Alt text](./nmap.png?raw=true)
+![Alt text](./root.png?raw=true)
 
 
 ## get the flag
 
-![Alt text](./nmap.png?raw=true)
+![Alt text](./flag.png?raw=true)
 
 ## Thanks to Hadi Mene for the VM.
