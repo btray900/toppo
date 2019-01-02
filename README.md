@@ -39,7 +39,7 @@ Browse to the vulnerable file for sensitive information.
 
 ## low privilege shell
 
-So after trying some basic username lists that did not work, it dawned on me to try ted with success.
+So after trying some basic username lists that did not work, duh, try ted with success.
 
 ![Alt text](./lowshell.png?raw=true)
 
@@ -48,7 +48,7 @@ So after trying some basic username lists that did not work, it dawned on me to 
 
 The simple basics for privilege escalation (FFSACE): files, folders, services, applications, connections, exploits
 
-Anythng readable/writeable may be vulnerable. The sticky bit on the specific python version is vulnerable and can run with root privilege based on the permissions and ownership.
+Anything readable/writeable may be vulnerable. The sticky bit on the specific python version is vulnerable and can run with root privilege based on the permissions and ownership.
 
 ![Alt text](./vulnfile.png?raw=true)
 
